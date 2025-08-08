@@ -20,6 +20,7 @@ class WorkoutCalendarGraph extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text(
+                
                 'Activity Graph',
                 style: TextStyle(
                   fontSize: 16,

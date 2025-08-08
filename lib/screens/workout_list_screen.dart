@@ -57,10 +57,12 @@ class WorkoutListScreen extends StatelessWidget {
   }
 }
 
+
+
 class _WorkoutList extends StatelessWidget {
   final WorkoutType type;
 
-  const _WorkoutList({required this.type});
+  const _WorkoutList({required this.type});  
 
   @override
   Widget build(BuildContext context) {
@@ -96,6 +98,3 @@ class _WorkoutList extends StatelessWidget {
     );
   }
 }
-
-
-
