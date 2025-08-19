@@ -32,9 +32,10 @@ class onboardingScreen extends StatelessWidget {
       done: const Text("Done"),
       onDone: () => _onDone(context),
     );
-  }
+  }  
 
   void _onDone(BuildContext context) async {
+     
     Navigator.of(context).pushReplacement(
       MaterialPageRoute(builder: (_) => const WorkoutListScreen()),
     );
